@@ -1,0 +1,10 @@
+body {
+  background: lightgray;
+  padding: 25px;;
+}
+header {
+  background: lightblue;
+  text-align: center;
+  color: blue;
+  font-weight: 900;
+}
