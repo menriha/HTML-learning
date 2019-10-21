@@ -1,8 +1,11 @@
 window.onload = () => {
   let second = 0;
   let minutes = 0;
-  document.body.innerHTML =
-    '<header> <a href="http://htmlbook.ru/" id="html-link" target="blank">htmlbook</a><i id="timer-minutes"> </i>: <i id="timer-second"> </i></header>';
+  document.body.innerHTML = `
+      <header>
+        <a href="http://htmlbook.ru/" id="html-link" target="blank">htmlbook</a>
+        <i id="timer-minutes"> </i> : <i id="timer-second"> </i>
+      </header>`;
   setInterval(() => {
     second++;
     second < 10
